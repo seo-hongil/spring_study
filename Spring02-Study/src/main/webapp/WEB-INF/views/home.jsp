@@ -11,6 +11,7 @@
 <p>Spring Framework 연습중...</p>
 <ul>
 	<li><a href="fortune.nhn">오늘의 운세 보기</a></li>
+	<li><a href="friends.nhn">친구 목록 보기</a></li>
 </ul>
 </body>
 </html>
