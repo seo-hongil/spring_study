@@ -14,6 +14,9 @@
 		<li><a href="friends.do">쿠알라모임</a></li>
 		<li><a href="friends2.do">대학교 친구 목록</a></li>
 		<li><a href="friends3.do">절친들 목록</a></li>
+		<li><a href="delete.do">친구 정보 삭제</a></li>
+		<li><a href="delete2.do">친구 정보 삭제2</a></li>
+		<li><a href="users/signup_form.do">회원 가입 폼</a></li>
 	</ul>
 	
 	<h2>공지사항</h2>

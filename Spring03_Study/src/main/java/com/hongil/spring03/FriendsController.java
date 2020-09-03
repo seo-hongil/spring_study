@@ -45,6 +45,18 @@ public class FriendsController {
 		mView.setViewName("friends");
 		return mView;
 	}
-	
+	@RequestMapping("/delete")
+	public String delete() {
+		System.out.println("친구 정보를 삭제 합니다.");
+		return "redirect:/friends.do";
+	}
+	@RequestMapping("/delete2")
+	public ModelAndView delete2(ModelAndView mView) {
+		System.out.println("친구 정보를 삭제 합니다.");
+		
+		mView.setViewName("redirect:/friends.do");
+		
+		return mView;
+	}
 	
 }
